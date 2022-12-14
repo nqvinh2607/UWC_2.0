@@ -14,11 +14,13 @@ function Ass_janitor({ ass_janitor, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn A</td>{"\n"}
-            <td>ID: 1</td>
+        <div className={cx('areas')}>
             
-            <td>Janitor</td>
-            <td>ID xe: 1</td>
+            Nguyễn Văn A        Janitor<br/>
+            ID: 2 <br/>
+      
+            ID xe: 215 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
@@ -28,11 +30,13 @@ function Ass_janitor({ ass_janitor, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn B</td>{"\n"}
-            <td>ID: 2</td>
+        <div className={cx('areas')}>
             
-            <td>Janitor</td>
-            <td>ID xe: 211</td>
+            Nguyễn Văn B        Janitor<br/>
+            ID: 2 <br/>
+      
+            ID xe: 210 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
@@ -41,11 +45,13 @@ function Ass_janitor({ ass_janitor, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn H</td>{"\n"}
-            <td>ID: 2</td>
+        <div className={cx('areas')}>
             
-            <td>Janitor</td>
-            <td>ID xe: 878</td>
+            Nguyễn Văn H        Janitor<br/>
+            ID: 2 <br/>
+      
+            ID xe: 295 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
@@ -55,30 +61,20 @@ function Ass_janitor({ ass_janitor, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Trần Thị D</td>{"\n"}
-            <td>ID: 8</td>
+        <div className={cx('areas')}>
             
-            <td>Janitor</td>
-            <td>ID xe: 156</td>
+            Nguyễn Thị G        Janitor<br/>
+            ID: 2 <br/>
+      
+            ID xe: 234 <br/>
+          </div>
             <td>
               <Button className={cx("btn-select")}>CHỌN</Button>
             </td>
           </tr>
         </div>
 
-        <div className={styles.cell}>
-        <tr>
-            
-            <td>Nguyễn Thị G</td>{"\n"}
-            <td>ID: 10</td>
-            
-            <td>Janitor</td>
-            <td>ID xe: 639</td>
-            <td>
-              <Button className={cx("btn-select")}>CHỌN</Button>
-            </td>
-          </tr>
-        </div>
+        
           
         </table>
         <div className={cx("btns")}>
