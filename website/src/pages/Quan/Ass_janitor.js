@@ -41,7 +41,7 @@ function Ass_janitor({ ass_janitor, type }) {
         <div className={styles.cell}>
         <tr>
             
-            <td>Nguyễn Văn H</td>{"\n"}
+            <td>Nguyễn Văn H</td>
             <td>ID: 2</td>
             
             <td>Janitor</td>
